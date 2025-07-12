@@ -29,7 +29,7 @@ require_once 'autoload.php';
 
 DisallowIndexing\DisallowIndexing::instance()->setup();
 Performance\Fast404::instance()->setup();
-
+AllowRawContentUpdates::instance()->setup();
 
 add_action(
 	'init',
